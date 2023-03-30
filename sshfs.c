@@ -15,7 +15,7 @@
 #include <fuse_lowlevel.h>
 #endif
 #ifdef __APPLE__
-#  include <fuse_darwin.h>
+#  include <fuse.h>
 #endif
 #include <assert.h>
 #include <stdio.h>
